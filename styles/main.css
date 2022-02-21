@@ -1,2 +1,80 @@
-@import url("https://merakii-ui.netlify.app/CSS/style.css") ;
+@import url("https://merakii-ui.netlify.app/CSS/style.css");
+@import url(/styles/utilities.css); 
+@import url(/styles/color.css);
 
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navlogo{
+    height: 15vh;
+   }
+
+.navbar{
+    background-color: var(--primary-color);
+   height: 15vh;
+}
+.navlinks h2{
+margin: .9rem  2rem;
+}
+.nav-items{
+   margin: 0 0 0 .5rem;
+}
+.heroimg {
+    max-height: 25rem;
+    max-width: 25rem;
+}
+.welcometxt {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.categoriesimg{
+    max-height: 25rem;
+    max-width: 25rem;
+}
+
+.causemsg{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    
+}
+.productcategory{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.foot{
+    text-align: center;
+    font-size: larger;
+    background-color: var(--primary-color);
+    height: 12vh;
+    
+}
+.offers .btn {
+    color: black;
+}
+
+.offers , .cares{
+    margin: 2rem;
+}
+.badgewrapper{
+    position: relative;
+    margin: 1rem;
+}
+
+.badge{
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 1px 2px;
+    border-radius: 50%;
+}
