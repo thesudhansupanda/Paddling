@@ -20,7 +20,7 @@ body{
 }
 
 .brand-img{
-    height: 10vh;
+    height: 12vh;
 }
 
 .nav-items {
@@ -30,6 +30,10 @@ body{
 
 .navlinks{
     margin-left: 5rem;
+   
+}
+.nav-items{
+    margin: .5rem;
 }
 .navlinks h2{
     text-align: center;
