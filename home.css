@@ -1,0 +1,82 @@
+@import url("https://merakii-ui.netlify.app/CSS/style.css") ;
+
+:root{
+
+    --primary-color: #F6E1D3;
+    --secondary-color: #F7BCAC ;
+}
+
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color:var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.brand-img{
+    height: 10vh;
+}
+
+.nav-items {
+    text-decoration: none;
+
+}
+
+.navlinks{
+    margin-left: 5rem;
+}
+.navlinks h2{
+    text-align: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user-profile{
+ margin: 1rem  2rem;
+}
+
+.Hygiene-products{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+    place-content: center;
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+}
+
+.heading{
+    margin: 2rem;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 1rem;
+    color: black;
+}
