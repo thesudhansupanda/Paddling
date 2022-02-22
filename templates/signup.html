@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Paddling</title>
+
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="navlogo" src="/assets/logoblack.png" alt="paddlinglogo" />
+
+      <section class="navlinks">
+        <h2>Paddling</h2>
+        <a href="#" class="nav-items">Home</a>
+        <a href="#" class="nav-items dropdown">Products</a>
+        <a href="#" class="nav-items">OurCause</a>
+      </section>
+
+      <section class="user-info">
+        <div class="user-profile flex align-middle">
+          <div class="dropdown">
+            <div class="avatar flex flex-col-rev">
+              <button style="color: black" class="btn">Login</button>
+            </div>
+          </div>
+
+          <div class="badgewrapper">
+            <a href="#"><img src="/assets/heart.svg" alt="" /></a>
+            <div class="badge">2</div>
+          </div>
+          <div class="badgewrapper">
+            <a href="#"><img src="/assets/shopping-bag.svg" alt="" /></a>
+            <div class="badge">11</div>
+          </div>
+        </div>
+      </section>
+    </nav>
+
+    <main class="main">
+      <div class="signup">
+        <h2 class="text-center heading-3 signup-heading">Welcome !</h2>
+        <div class="signup-form">
+          <div class="textbox input">
+            <label for="fistname">First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              class="input-text"
+            />
+          </div>
+          <div class="textbox input">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              class="input-text"
+            />
+          </div>
+          <div class="textbox input">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              class="input-text"
+            />
+          </div>
+          <div class="textbox input">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input-text"
+            />
+          </div>
+          <div class="textbox input">
+            <label for="re-password">Confirm Password</label>
+            <input
+              type="password"
+              name="re-password"
+              id="re-password"
+              class="input-text"
+            />
+          </div>
+          <button class="btn btn-primary">Sign Up</button>
+          <div class="login-subtext text-center">
+            Alreay have an account? <a href="login.html">Login here</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
