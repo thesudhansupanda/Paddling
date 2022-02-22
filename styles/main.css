@@ -1,6 +1,7 @@
 @import url("https://merakii-ui.netlify.app/CSS/style.css");
 @import url(/styles/utilities.css); 
 @import url(/styles/color.css);
+@import url(/styles/cart.css);
 @import url(/Styles/product.css);
 
 *{
