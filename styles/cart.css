@@ -1,47 +1,41 @@
-
-
-.mg-y-sm{
-    margin: .5rem;
+.mg-y-sm {
+  margin: 0.5rem;
 }
-.section-heading{
-    font-size: 2rem;
-    text-align: center;
+.section-heading {
+  font-size: 2rem;
+  text-align: center;
 }
-.cart-page{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    
+.cart-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
 }
-.cart-grid{
-    display: grid;
-    grid-template-columns: (auto-fit, minmax(20rem,1fr));
-    place-content: center;
-    gap: 1rem;
-    
+.cart-grid {
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(20rem, 1fr));
+  place-content: center;
+  gap: 1rem;
 }
-.hor-space{
-    position: absolute;
-    right: 1rem;
-    margin-left: 6rem;
+.hor-space {
+  position: absolute;
+  right: 1rem;
+  margin-left: 6rem;
 }
 
-
-.card-text-container .slider-text-input{
-    width: 1.5rem;
-    height: 1.3rem;
-    border: 1px solid var(--bg-color);
-    border-radius: 0.2rem;
-    text-align: center;
+.card-text-container .slider-text-input {
+  width: 1.5rem;
+  height: 1.3rem;
+  border: 1px solid var(--bg-color);
+  border-radius: 0.2rem;
+  text-align: center;
 }
 
-.checkout-details{
-display: flex;
-align-items: center;
-justify-content: center;
-
+.checkout-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.check-txt{
-    margin: .5rem;
-    padding: .5rem;
+.check-txt {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }

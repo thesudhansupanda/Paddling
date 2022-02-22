@@ -1,135 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
-    <link rel="stylesheet" href="/styles/main.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <img class="navlogo" src="/assets/logoblack.png" alt="paddlinglogo">
+      <img class="navlogo" src="/assets/logoblack.png" alt="paddlinglogo" />
 
-        <section class="navlinks">
-            <h2>Paddling</h2>
-            <a href="#" class="nav-items">Home</a>
-            <a href="#" class="nav-items dropdown">Products</a>
-            <a href="#" class="nav-items">OurCause</a>
-        </section>
+      <section class="navlinks">
+        <h2>Paddling</h2>
+        <a href="#" class="nav-items">Home</a>
+        <a href="#" class="nav-items dropdown">Products</a>
+        <a href="#" class="nav-items">OurCause</a>
+      </section>
 
-        <section class="user-info">
-            <div class="user-profile flex align-middle">
-                
-                <div class="dropdown">
-                   <div class="avatar flex flex-col-rev">
-                    <p class="username "><strong> Guest </strong> </p>
-                    <img src="./assets/icons8-girl.png" alt="alernative-text" class="user-image">
-                   </div>
-                </div>
-            
-                <div class="badgewrapper">
-                    <a href="#"><img src="/assets/heart.svg" alt=""></a>
-                    <div class="badge">2</div>
-                </div>
-                <div class="badgewrapper">
-                    <a href="#"><img src="/assets/shopping-bag.svg" alt=""></a>
-                    <div class="badge">11</div>
-                </div>
-
+      <section class="user-info">
+        <div class="user-profile flex align-middle">
+          <div class="dropdown">
+            <div class="avatar flex flex-col-rev">
+              <p class="username"><strong> Guest </strong></p>
+              <img
+                src="./assets/icons8-girl.png"
+                alt="alernative-text"
+                class="user-image"
+              />
             </div>
-    </section> 
-    
+          </div>
+
+          <div class="badgewrapper">
+            <a href="#"><img src="/assets/heart.svg" alt="" /></a>
+            <div class="badge">2</div>
+          </div>
+          <div class="badgewrapper">
+            <a href="#"><img src="/assets/shopping-bag.svg" alt="" /></a>
+            <div class="badge">11</div>
+          </div>
+        </div>
+      </section>
     </nav>
     <div class="cart-page">
+      <div class="pagecontent cart-grid">
+        <div class="section-heading">My Cart</div>
 
-    <div class="pagecontent cart-grid">
-        <div class="section-heading ">My Cart</div>
-
-       
-    <div class=" card card-shadow">
-        <div class="wishStrip mg-y-md">
-           
+        <div class="card card-shadow">
+          <div class="wishStrip mg-y-md">
             <div class="wishImg align-items-center">
-                <img src="/assets/cleanser.png" alt="pads">
+              <img src="/assets/cleanser.png" alt="pads" />
             </div>
             <h3>Intimate Cleanser</h3>
             <span>Quantity: </span>
-                <div class="card-text-container flex-center">
-                  <a href="#"><span class="material-icons">+</span></a
-                  ><input class="slider-text-input" type="text" value="1" /><a
-                    href="#"
-                    ><span class="material-icons">-</span></a
-                  >
-                </div>
-            <h3><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 239</h3>
+            <div class="card-text-container flex-center">
+              <a href="#"><span class="material-icons">+</span></a
+              ><input class="slider-text-input" type="text" value="1" /><a
+                href="#"
+                ><span class="material-icons">-</span></a
+              >
+            </div>
+            <h3>
+              <i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 239
+            </h3>
             <div class="wishActionButtons pd-r-sm">
-                <button class="btn btn-secondary mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
-                    Wishlist</button>  
-                    <button class="btn btn-danger mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart</button>
-
+              <button class="btn btn-secondary mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Add to Wishlist
+              </button>
+              <button class="btn btn-danger mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
 
-    <div class=" card card-shadow">
-        <div class="wishStrip mg-y-md">
-            
+        <div class="card card-shadow">
+          <div class="wishStrip mg-y-md">
             <div class="wishImg align-items-center">
-                <img src="/assets/cleanser.png" alt="pads">
+              <img src="/assets/cleanser.png" alt="pads" />
             </div>
             <div class="card-text-container flex-center">
-                <a href="#"><span class="material-icons">+</span></a
-                ><input class="slider-text-input" type="text" value="3" /><a
-                  href="#"
-                  ><span class="material-icons">-</span></a
-                >
-              </div>
+              <a href="#"><span class="material-icons">+</span></a
+              ><input class="slider-text-input" type="text" value="3" /><a
+                href="#"
+                ><span class="material-icons">-</span></a
+              >
+            </div>
             <h3>Intimate Cleanser</h3>
-            <h3><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 239</h3>
+            <h3>
+              <i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 239
+            </h3>
             <div class="wishActionButtons pd-r-sm">
-                <button class="btn btn-secondary mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
-                    Wishlist</button>
-                    <button class="btn btn-danger mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart</button>
-
+              <button class="btn btn-secondary mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Add to Wishlist
+              </button>
+              <button class="btn btn-danger mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
 
-    </div>
-
-    <div class=" card card-shadow">
-        <div class="wishStrip mg-y-md">
-    
+        <div class="card card-shadow">
+          <div class="wishStrip mg-y-md">
             <div class="wishImg align-items-center">
-                <img src="/assets/tamponsbg.jpg" alt="pads">
+              <img src="/assets/tamponsbg.jpg" alt="pads" />
             </div>
             <div class="card-text-container flex-center">
-                <a href="#"><span class="material-icons">+</span></a
-                ><input class="slider-text-input" type="text" value="1" /><a
-                  href="#"
-                  ><span class="material-icons">-</span></a
-                >
-              </div>
+              <a href="#"><span class="material-icons">+</span></a
+              ><input class="slider-text-input" type="text" value="1" /><a
+                href="#"
+                ><span class="material-icons">-</span></a
+              >
+            </div>
             <h3>Intimate Cleanser</h3>
-            <h3><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 192</h3>
+            <h3>
+              <i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i> RS 192
+            </h3>
             <div class="wishActionButtons pd-r-sm">
-                <button class="btn btn-secondary mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
-                    Wishlist</button>
-                    <button class="btn btn-danger mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart
-                        </button>
-
+              <button class="btn btn-secondary mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Add to Wishlist
+              </button>
+              <button class="btn btn-danger mg-y-sm">
+                <i class="fas fa-shopping-cart mg-r-sm"></i>Remove from cart
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
-
-    </div>
-
-     
-     </div>
-     <div class=" checkout-details">
+      </div>
+      <div class="checkout-details">
         <div class="p-1 card card-shadow">
           <div class="check-txt">Price details</div>
-          <hr>
+          <hr />
           <div class="check-txt">
             Price (2 items) <span class="hor-space">₹500</span>
           </div>
@@ -139,7 +141,7 @@
           <div class="check-txt">
             Delivery Charges <span class="hor-space">₹50</span>
           </div>
-          <hr>
+          <hr />
           <div class="check-txt">
             TOTAL AMOUNT <span class="hor-space">₹280</span>
           </div>
@@ -148,120 +150,6 @@
         </div>
       </div>
     </div>
-
-</body>
+  </body>
 </html>
 
-
-<!--  
-
-    <div class="page-container">
-      <div class="section-heading flex-center p-1 font-lg">My Cart</div>
-
-      <div class="cart-page">
-        <div class="cart-grid">
-          <div class="card card-shadow p-1">
-            <div class="flex-row">
-              <div class="p-1 image">
-                <img src="/assets/chitale ice cream.png" alt="Ice cream" />
-              </div>
-              <div>
-                <div class="card-heading-container">
-                  <h3 class="font-md font-medium">Chitale</h3>
-                  <h5 class="font-sm font-light p-b-1">Ice cream</h5>
-                </div>
-                <span>Quantity: </span>
-                <div class="card-text-container flex-center">
-                  <a href="#"><span class="material-icons">add</span></a
-                  ><input class="slider-text-input" type="text" value="1" /><a
-                    href="#"
-                    ><span class="material-icons">remove</span></a
-                  >
-                </div>
-                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
-              </div>
-            </div>
-
-            <button class="btn btn-outline-warning m-t-1 m-b-1">
-              Move to wishlist
-            </button>
-            <button class="btn btn-outline-danger">Remove from cart</button>
-          </div>
-
-          <div class="card card-shadow p-1">
-            <div class="flex-row">
-              <div class="p-1 image">
-                <img src="/assets/top picks.png" alt="Biryani" />
-              </div>
-              <div>
-                <div class="card-heading-container">
-                  <h3 class="font-md font-medium">Behrouz</h3>
-                  <h5 class="font-sm font-light p-b-1">Biryani</h5>
-                </div>
-                <span>Quantity: </span>
-                <div class="card-text-container flex-center">
-                  <a href="#"> <span class="material-icons">add</span> </a>
-                  <input class="slider-text-input" type="text" value="2" />
-                  <a href="#"> <span class="material-icons">remove</span></a>
-                </div>
-                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
-              </div>
-            </div>
-
-            <button class="btn btn-outline-warning m-t-1 m-b-1">
-              Move to wishlist
-            </button>
-            <button class="btn btn-outline-danger">Remove from cart</button>
-          </div>
-
-          <div class="card card-shadow p-1">
-            <div class="flex-row">
-              <div class="p-1 image">
-                <img src="/assets/premium-category.png" alt="burger" />
-              </div>
-              <div>
-                <div class="card-heading-container">
-                  <h3 class="font-md font-medium">Mcdonald's</h3>
-                  <h5 class="font-sm font-light p-b-1">Burger</h5>
-                </div>
-                <span>Quantity: </span>
-                <div class="card-text-container flex-center">
-                  <a href="#"><span class="material-icons">add</span></a>
-                  <input class="slider-text-input" type="text" value="1" />
-                  <a href="#"><span class="material-icons">remove</span></a>
-                </div>
-                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
-              </div>
-            </div>
-
-            <button class="btn btn-outline-warning m-t-1 m-b-1">
-              Move to wishlist
-            </button>
-            <button class="btn btn-outline-danger">Remove from cart</button>
-          </div>
-        </div>
-
-        <div class="flex-center checkout-details">
-          <div class="p-1 card card-shadow">
-            <div class="font-sm font-bold p-1">Price details</div>
-            <hr>
-            <div class="p-l-1 p-b-1">
-              Price (2 items) <span class="hor-space">₹500</span>
-            </div>
-            <div class="p-l-1 p-b-1">
-              Discounts <span class="hor-space">₹270</span>
-            </div>
-            <div class="p-l-1 p-b-1">
-              Delivery Charges <span class="hor-space">₹50</span>
-            </div>
-            <hr>
-            <div class="p-l-1 p-b-1 p-t-1">
-              TOTAL AMOUNT <span class="hor-space">₹280</span>
-            </div>
-            <div class="p-l-1 p-b-1">You will save ₹270 on this order</div>
-            <button class="btn btn-success">Place Order</button>
-          </div>
-        </div>
-      </div>
-    </div>
- -->
