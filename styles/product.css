@@ -8,7 +8,7 @@
 }
 
 .filters input {
-    accent-color: purple;
+    accent-color: var(--primary-color)
 }
 
 
