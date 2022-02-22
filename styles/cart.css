@@ -39,3 +39,7 @@
   margin: 0.5rem;
   padding: 0.5rem;
 }
+
+ h3 , span , .check-txt {
+  color: black;
+}
