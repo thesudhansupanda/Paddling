@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Products</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="navlogo" src="/assets/logoblack.png" alt="paddlinglogo">
+
+        <section class="navlinks">
+            <h2>Paddling</h2>
+            <a href="#" class="nav-items">Home</a>
+            <a href="#" class="nav-items dropdown">Products</a>
+            <a href="#" class="nav-items">OurCause</a>
+        </section>
+
+        <section class="user-info">
+            <div class="user-profile flex align-middle">
+                
+                <div class="dropdown">
+                   <div class="avatar flex flex-col-rev">
+                     <button style="color:black;" class="btn">Login</button>
+                   </div>
+                </div>
+            
+                <div class="badgewrapper">
+                    <a href="#"><img src="/assets/heart.svg" alt=""></a>
+                    <div class="badge">2</div>
+                </div>
+                <div class="badgewrapper">
+                    <a href="#"><img src="/assets/shopping-bag.svg" alt=""></a>
+                    <div class="badge">11</div>
+                </div>
+
+            </div>
+    </section> 
+    
+    </nav>
+
+    <div class="pageContainer flex">
+        <aside class="filters pd-lg">
+            <div class="filterHead">
+                <h2>Filters</h2>
+                <h4> Clear</h4>
+            </div>
+            <div class="priceSlide">
+                <h3>Price</h3>
+                <input type="range" min="50" max="1000" value="250" class="slider mg-sm" id="myRange">
+                <div class="labels flex flex-spc-arnd">
+                    <p>100</p>
+                    <p>150</p>
+                    <p>250</p>
+                </div>
+            </div>
+             <div class="category">
+                 <h3>category</h3>
+                 <input class="" type="checkbox" name="shopping" id="periodCare">
+                 <label for="periodCare">Period Care</label> <br>
+                 <input class="" type="checkbox" name="shopping" id="intimateCare">
+                 <label for="intimateCare" >Intimate Care</label> <br>    
+             </div>
+
+             <div class="mg-y-md">
+                <h3>Ratings</h3>
+                <input class="mg-sm" type="radio" name="Ratings" id="fourStar">
+                <label for="fourStar">4 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="threeStar">
+                <label for="threeStar">3 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="twoStar">
+                <label for="twoStar">2 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="oneStar">
+                <label for="oneStar">1 &nbsp;<i class="fa-solid fa-star"></i> and up</label> <br>
+            </div>
+
+             <div class="sortings">
+                <h3>Sort By</h3>
+                <input class="mg-sm" type="radio" name="sortby" id="sortByPrice">
+                <label for="sortByPrice">Price</label> <br>
+                <input class="mg-sm" type="radio" name="sortby" id="sortByRating">
+                <label for="sortByRating">Ratings</label> <br>
+             </div>
+         </aside>
+
+         <div class="pageContent pd-md">
+            <div class="productCard pd-sm mg-sm">
+                <img src="/assets/cleanser.png" alt="cup">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h3 class="cardHead">cleanser</h3>
+                        <div class="rateMe prim-color">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="productPrice fw-xxl"><i class="fa-solid fa-indian-rupee-sign"></i> 239
+                            <strike class="fs-sm"><i class="fa-solid fa-indian-rupee-sign"></i>250</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+
+            <div class="productCard pd-sm mg-sm">
+                <img src="/assets/cleanser.png" alt="cup">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h3 class="cardHead">cleanser</h3>
+                        <div class="rateMe prim-color">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="productPrice fw-xxl"><i class="fa-solid fa-indian-rupee-sign"></i> 239
+                            <strike class="fs-sm"><i class="fa-solid fa-indian-rupee-sign"></i>250</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/assets/cleanser.png" alt="cup">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h3 class="cardHead">cleanser</h3>
+                        <div class="rateMe prim-color">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="productPrice fw-xxl"><i class="fa-solid fa-indian-rupee-sign"></i> 239
+                            <strike class="fs-sm"><i class="fa-solid fa-indian-rupee-sign"></i>250</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+
+         </div>
+
+
+
+    </div>
+
+
+
+    
+</body>
+</html>
