@@ -5,13 +5,6 @@ Live Link:
 https://paddling.netlify.app/
 
 
-Pages
-Home Page
-Products Listing Page
-Wishlist Page
-Cart Page
-Login Page
-Signup Page
 
 
 
